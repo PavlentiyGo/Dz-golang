@@ -59,7 +59,6 @@ func CurrencyScan(value string) error {
 }
 
 func Convert(from, to string, money float64) float64 {
-	fmt.Println(from, to, money)
 	switch from {
 	case "USD":
 		if to == "EUR" {
@@ -80,7 +79,12 @@ func Convert(from, to string, money float64) float64 {
 			return money / usd_rub * usd_eur
 		}
 	}
-	return 0
+func UserScan() (string, string, int) {
+	var from string
+	var to string
+	var money int
+	fmt.Scan(&from, &to, &money)
+	return from, to, money
 }
 
 func main() {
