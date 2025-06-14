@@ -79,12 +79,7 @@ func Convert(from, to string, money float64) float64 {
 			return money / usd_rub * usd_eur
 		}
 	}
-func UserScan() (string, string, int) {
-	var from string
-	var to string
-	var money int
-	fmt.Scan(&from, &to, &money)
-	return from, to, money
+	return 0
 }
 
 func main() {
