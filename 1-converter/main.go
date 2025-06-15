@@ -10,6 +10,8 @@ const usd_eur = 0.88
 const usd_rub = 78.48
 const eur_rub = usd_rub / usd_eur
 
+type converter = map[string]map[string]float64
+
 func UserScan() (string, string, float64) {
 	var from string
 	var to string
@@ -59,28 +61,11 @@ func CurrencyScan(value string) error {
 }
 
 func Convert(from, to string, money float64) float64 {
-	fmt.Println(from, to, money)
-	switch from {
-	case "USD":
-		if to == "EUR" {
-			return money * usd_eur
-		} else {
-			return money * usd_rub
-		}
-	case "EUR":
-		if to == "RU" {
-			return money * eur_rub
-		} else {
-			return money / usd_eur
-		}
-	case "RU":
-		if to == "USD" {
-			return money / usd_rub
-		} else {
-			return money / usd_rub * usd_eur
-		}
-	}
-	return 0
+	convert := converter{}
+	convert["USD"] = map[string]float64{"EUR": money * usd_eur, "RU": money * usd_rub}
+	convert["RU"] = map[string]float64{"EUR": money / usd_rub * usd_eur, "USD": money / usd_rub}
+	convert["EUR"] = map[string]float64{"RU": money * eur_rub, "USD": money / usd_eur}
+	return convert[from][to]
 }
 
 func main() {
