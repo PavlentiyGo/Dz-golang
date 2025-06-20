@@ -60,17 +60,21 @@ func CurrencyScan(value string) error {
 	return nil
 }
 
-func Convert(from, to string, money float64) float64 {
-	convert := converter{}
-	convert["USD"] = map[string]float64{"EUR": money * usd_eur, "RU": money * usd_rub}
-	convert["RU"] = map[string]float64{"EUR": money / usd_rub * usd_eur, "USD": money / usd_rub}
-	convert["EUR"] = map[string]float64{"RU": money * eur_rub, "USD": money / usd_eur}
-	return convert[from][to]
-}
-
-func main() {
+func Converter() {
 	var from, to string
 	var money float64
 	from, to, money = UserScan()
-	fmt.Println("Переведённые деньги", Convert(from, to, money))
+	convert := converter{}
+	Convert(money, &convert)
+	fmt.Println("Переведённые деньги", convert[from][to])
+}
+
+func Convert(money float64, convert *converter) {
+	(*convert)["USD"] = map[string]float64{"EUR": money * usd_eur, "RU": money * usd_rub}
+	(*convert)["RU"] = map[string]float64{"EUR": money / usd_rub * usd_eur, "USD": money / usd_rub}
+	(*convert)["EUR"] = map[string]float64{"RU": money * eur_rub, "USD": money / usd_eur}
+}
+
+func main() {
+	Converter()
 }
