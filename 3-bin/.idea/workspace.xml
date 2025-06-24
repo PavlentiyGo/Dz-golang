@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d3fb6e80-9333-4ab2-b8f5-9bbe7762f632" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../1-converter/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_06_2025_1_41_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-converter/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_06_2025_1_41__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-converter/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_06_2025_1_43_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-converter/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_06_2025_1_43__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-converter/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_06_2025_20_38_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-converter/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_06_2025_20_38__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-converter/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_06_2025_0_17_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-converter/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_06_2025_0_17_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-converter/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_06_2025_0_17__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-converter/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_06_2025_0_17__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-converter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1-converter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/3-bin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/file.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/storage.go" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$USER_HOME$/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64" />
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="2-calc" />
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PavlentiyGo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:PavlentiyGo/Dz-golang.git&quot;,
+    &quot;accountId&quot;: &quot;b5aa7408-875a-4285-b1c7-d651256dfd5b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2yvd2owcDn80uxYy4WWAqOVF9ul" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.GoLinterPluginOnboarding": "true",
+    "RunOnceActivity.GoLinterPluginStorageMigration": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "Merging 3-bin",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "C:/Users/Pavel",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Pavel/Desktop/Homework/3-bin/main.go"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-3b128438d3f6-34ac7aa8f6ab-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-251.23774.430" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-GO-251.23774.430" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3fb6e80-9333-4ab2-b8f5-9bbe7762f632" name="Changes" comment="" />
+      <created>1750718776800</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750718776800</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
