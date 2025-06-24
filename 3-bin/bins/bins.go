@@ -8,7 +8,7 @@ type Bin struct {
 	createdAt time.Time
 	name      string
 }
-type BinsList struct {
+type BinList struct {
 	bins []Bin
 }
 
@@ -19,6 +19,6 @@ func newBin(id string, private bool, name string) *Bin {
 		name:      name,
 	}
 }
-func newBinsList(bin *Bin) *BinsList {
-	return &BinsList{bins: []Bin{*bin}}
+func newBinList(bin *Bin) *BinList {
+	return &BinList{bins: []Bin{*bin}}
 }
