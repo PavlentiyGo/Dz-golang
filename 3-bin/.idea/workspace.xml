@@ -5,25 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3fb6e80-9333-4ab2-b8f5-9bbe7762f632" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../1-converter/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_06_2025_1_41_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1-converter/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_06_2025_1_41__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1-converter/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_06_2025_1_43_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1-converter/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_06_2025_1_43__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1-converter/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_06_2025_20_38_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1-converter/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_06_2025_20_38__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1-converter/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_06_2025_0_17_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1-converter/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_06_2025_0_17_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1-converter/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_06_2025_0_17__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1-converter/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_06_2025_0_17__Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1-converter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1-converter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/3-bin.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/api.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/file.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/storage.go" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/api.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/file.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/storage.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +64,7 @@
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "git-widget-placeholder": "Merging 3-bin",
+    "git-widget-placeholder": "3-bin",
     "go.import.settings.migrated": "true",
     "last_opened_file_path": "C:/Users/Pavel",
     "node.js.detected.package.eslint": "true",
