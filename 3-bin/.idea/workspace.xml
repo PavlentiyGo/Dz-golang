@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3fb6e80-9333-4ab2-b8f5-9bbe7762f632" name="Changes" comment="" />
+    <list default="true" id="d3fb6e80-9333-4ab2-b8f5-9bbe7762f632" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/file/file.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/storage.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
